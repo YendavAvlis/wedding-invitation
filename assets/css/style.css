@@ -46,7 +46,7 @@
    * typography
    */
 
-  --ff-recoleta: "Recoleta", serif;
+  --ff-recoleta: "Playfair Display", serif;
   --ff-gordita: "Gordita", sans-serif;
   
   --fs-1: 6rem;
@@ -177,6 +177,10 @@ body.active { overflow: hidden; }
 .shape { display: none; }
 
 .section { padding-block: var(--section-padding); }
+
+.details div{
+  padding: 1em 0em;
+}
 
 .h1,
 .h2,
