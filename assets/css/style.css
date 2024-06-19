@@ -1764,6 +1764,12 @@ Counter
   margin: 1.5em 0em;
 }
 
+.countdown1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5em 0em;
+}
 .count-info {
   border: 1px solid var(--radical-red);
   outline-style: solid;
