@@ -1780,3 +1780,21 @@ Counter
 .count-info strong{
   font-size: 1.5rem;
 }
+
+/*
+Media Query
+*/
+@media (max-width: 480px) {
+  .count-info{
+    padding: .25em .75em;
+   
+  }
+
+  .count-info h3{
+    font-size: 2rem;
+  }
+
+  .get-btn{
+    width: 75%;
+  }
+}
