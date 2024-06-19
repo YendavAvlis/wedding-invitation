@@ -1796,7 +1796,7 @@ Counter
   outline-style: solid;
   outline-color: var(--radical-red);
   outline-width: medium;
-  padding: .25em 1.5em;
+  padding: .25em 1.5em !important;
   border-radius: 1em;
 }
 
@@ -1813,7 +1813,7 @@ Media Query
 */
 @media (max-width: 480px) {
   .count-info{
-    padding: .25em .75em;
+    padding: .25em .75em !important;
    
   }
 
