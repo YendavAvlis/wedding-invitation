@@ -1767,9 +1767,30 @@ Counter
 .countdown1 {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   margin: 1.5em 0em;
 }
+
+.count-info1 {
+  border: 1px solid var(--radical-red);
+  outline-style: solid;
+  outline-color: var(--radical-red);
+  outline-width: medium;
+  padding: .25em 1.5em;
+  border-radius: 1em;
+}
+
+.count-info1 h3{
+  font-size: 3rem;
+}
+
+.count-info1 strong{
+  font-size: 1.5rem;
+}
+
+
 .count-info {
   border: 1px solid var(--radical-red);
   outline-style: solid;
