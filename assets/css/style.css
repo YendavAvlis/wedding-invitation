@@ -431,6 +431,18 @@ body.active { overflow: hidden; }
   margin-block-end: 50px;
 }
 
+.lang-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  background-color: var(--radical-red);
+  color: var(--white);
+  padding: 8px 30px;
+  border-radius: var(--radius-5);
+}
+
 .btn-holder {
   
   padding: 2.5em 0em;
